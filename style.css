@@ -318,14 +318,14 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 /* NEW: Team Section Styles                 */
 /* ======================================== */
 .team-section {
-  padding: var(--space-2xl) 0;
+  padding: var(--space-3xl) 0;
   background: linear-gradient(180deg, transparent 0%, rgba(0, 229, 199, 0.02) 100%);
 }
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: var(--space-1g);
+  grid-template-columns: repeat(3, 1fr); /* Force 3 columns on desktop */
+  gap: var(--space-lg);
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -334,7 +334,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  padding: var(--space-x1);
+  padding: var(--space-xl);
   text-align: center;
   transition: transform var(--transition-base), border-color var(--transition-base);
 }
@@ -349,7 +349,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   height: 80px;
   background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary));
   border-radius: 50%;
-  margin: 0 auto var(--space-lg);
+  margin: 0 auto var(--space-lg); /* Centered for desktop */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,6 +359,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 .team-avatar svg {
   width: 40px;
   height: 40px;
+}
+
+.team-info {
+  /* Wrapper for text to help with mobile alignment */
 }
 
 .team-name {
@@ -374,6 +378,38 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   font-weight: 500;
 }
 
+/* ======================================== */
+/* Responsive Adjustments for Team          */
+/* ======================================== */
+
+@media (max-width: 900px) {
+  /* Switch to single column for tablets/mobile to avoid awkward spacing */
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px; /* Keep cards narrow and centered */
+  }
+  
+  /* Switch card layout to horizontal (Image Left, Text Right) for mobile */
+  .team-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: var(--space-lg);
+    padding: var(--space-lg);
+  }
+  
+  .team-avatar {
+    margin: 0; /* Remove auto margin */
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  
+  .team-avatar svg {
+    width: 30px;
+    height: 30px;
+  }
+}
 /* ======================================== */
 /* NEW: Social Section Styles               */
 /* ======================================== */
