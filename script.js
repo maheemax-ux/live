@@ -68,7 +68,7 @@
     },
     {
       id: 6,
-      title: "Chess Championship",
+      title: "Goof Masters",
       category: "nontechnical",
       description: "-null-",
       teamSize: "1",
