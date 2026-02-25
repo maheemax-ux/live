@@ -318,14 +318,14 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 /* NEW: Team Section Styles                 */
 /* ======================================== */
 .team-section {
-  padding: var(--space-4xl) 0;
+  padding: var(--space-2xl) 0;
   background: linear-gradient(180deg, transparent 0%, rgba(0, 229, 199, 0.02) 100%);
 }
 
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: var(--space-2g);
+  gap: var(--space-1g);
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -340,7 +340,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 }
 
 .team-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
   border-color: var(--color-accent);
 }
 
