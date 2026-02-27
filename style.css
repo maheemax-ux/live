@@ -459,49 +459,6 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
   transform: translateY(-3px);
 }
 
-/* ======================================== */
-/* Responsive Adjustments                   */
-/* ======================================== */
-@media (max-width: 768px) {
-  .team-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .social-links {
-    gap: var(--space-md);
-  }
-  
-  .social-link {
-    width: 48px;
-    height: 48px;
-  }
-}
-
-@media (max-width: 480px) {
-  .team-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .team-card {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    gap: var(--space-lg);
-    padding: var(--space-lg);
-  }
-  
-  .team-avatar {
-    margin: 0;
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-  }
-  
-  .team-avatar svg {
-    width: 30px;
-    height: 30px;
-  }
-}
 /* ========================================== */
 /* PARTICIPANT NOTICE STYLES                 */
 /* ========================================== */
@@ -571,4 +528,48 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; line-height
 
 .notice-body a:hover {
   text-decoration: underline;
+}
+
+/* ======================================== */
+/* Responsive Adjustments                   */
+/* ======================================== */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .social-links {
+    gap: var(--space-md);
+  }
+  
+  .social-link {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: var(--space-lg);
+    padding: var(--space-lg);
+  }
+  
+  .team-avatar {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  
+  .team-avatar svg {
+    width: 30px;
+    height: 30px;
+  }
 }
