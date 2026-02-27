@@ -36,7 +36,7 @@
     },
     {
       id: 2,
-      title: "Reverse Engineering",
+      title: "Reverse Coding",
       category: "technical",
       description: "-null-",
       teamSize: "1-2",
