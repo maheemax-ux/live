@@ -26,15 +26,34 @@
   // Event Data (FIXED & STANDARDIZED)
   // ========================================
   const EVENTS_DATA = [
-    {
-      id: 1,
-      title: "Prompt Engineering",
-      category: "technical",
-      description: "will be updated.",
-      teamSize: "1",
-      img: "pe.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`
-    },
+      { 
+    id: 1,
+    title: "Prompt Engineering",
+    category: "technical",
+    description: `<p><strong>Event Description:</strong> Prompt Engineering is an individual technical event conducted in a computer laboratory. This competition challenges participants to design precise and effective prompts to generate accurate, relevant, and high-quality outputs using AI tools. The event emphasizes clarity of instruction, logical structuring, creativity, and the ability to communicate effectively with AI systems. Participants must demonstrate their skill in crafting prompts that produce meaningful and optimized results.</p>
+    
+           <p><strong>Rules & Structure:</strong></p>
+           <ul>
+             <li>This is an individual participation event.</li>
+             <li>Each participant will be allotted one system.</li>
+             <li>Internet access will be permitted only for authorized AI tools such as ChatGPT, Gemini, or Microsoft Copilot.</li>
+             <li>Access to external websites, study materials, or communication with others is strictly prohibited.</li>
+             <li>The number of rounds and the competition theme will be announced on the spot by the organizers.</li>
+             <li>A fixed time limit will be strictly followed.</li>
+             <li>Participants will be evaluated based on:
+               <ul>
+                 <li>Clarity and structure of the prompt</li>
+                 <li>Creativity and originality</li>
+                 <li>Logical framing of instructions</li>
+                 <li>Relevance and quality of AI-generated output</li>
+               </ul>
+             </li>
+             <li>The decision of the judges will be final and binding.</li>
+           </ul>`,
+    teamSize: "1",
+    img: "pe.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`
+  },
       { 
     id: 2,
     title: "Reverse Coding",
