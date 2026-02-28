@@ -35,19 +35,29 @@
       img: "pe.png",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`
     },
-    {
-      id: 2,
-      title: "Reverse Coding",
-      category: "technical",
-      description: "will be updated.",
-      teamSize: "1-2",
-      img: "rc.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`
-    },
+      { 
+    id: 2,
+    title: "Reverse Coding",
+    category: "technical",
+    description: `<p><strong>Event Description:</strong> Reverse Coding is an individual technical event conducted in the computer laboratory. Each participant will be provided with a system and a question paper containing program codes. Participants are required to carefully analyze the given code, identify logical and/or syntax errors, and correct them within the specified time limit. In certain rounds, participants may also be asked to predict the output or reconstruct missing parts of the code.</p>
+    
+           <p><strong>Rules & Structure:</strong></p>
+           <ul>
+             <li>This is an individual event (team participation is not allowed).</li>
+             <li>Each participant will be allotted one system.</li>
+             <li>Internet access and external materials are strictly prohibited.</li>
+             <li>The event will be conducted within a fixed time limit.</li>
+             <li>Evaluation will be based on accuracy, logical reasoning, and completion time.</li>
+             <li>The decision of the judges will be final.</li>
+           </ul>`,
+    teamSize: "1",
+    img: "rc.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`
+  },
     {
       id: 3,
       title: "Paper Presentation",
-      category: "technical", // FIXED: was 'cat'
+      category: "technical",
       description: `<p><strong>Event Description:</strong> Paper Presentation is a technical event that provides students with a platform to showcase their innovative ideas, research insights, and technical expertise in emerging domains.</p>
          
          <p><strong>Abstract Submission Guidelines:</strong></p>
@@ -109,15 +119,26 @@
       img: "aq.png",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
     },
-    {
-      id: 5,
-      title: "Act It Out",
-      category: "nontechnical",
-      description: "will be updated.",
-      teamSize: "2",
-      img: "aio.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>`
-    },
+  { 
+    id: 5,
+    title: "Act It Out",
+    category: "nontechnical",
+    description: `<p><strong>Event Description:</strong> Act It Out is a fun and engaging team-based on-stage event designed to test coordination, creativity, and quick thinking. Each team will consist of two participants. One participant will perform through actions, while the other participant must guess the correct answer within the given time limit. The performing participant will be given a topic such as a song title, movie name, famous dialogue, or personality. The participant must express the given topic using only actions and body language. Speaking, lip-syncing, mouthing words, spelling, or giving direct verbal clues is strictly prohibited. The guessing participant must correctly identify the answer within the allotted time.</p>
+    
+           <p><strong>Rules & Evaluation:</strong></p>
+           <ul>
+             <li>Each team must consist of exactly two members.</li>
+             <li>One participant will act, and the other will guess.</li>
+             <li>Verbal hints, lip movements, spelling, gestures indicating letters, or any form of direct clues are not allowed.</li>
+             <li>Each round will have a fixed time limit.</li>
+             <li>Teams will be awarded points for each correct answer.</li>
+             <li>Winners will be determined based on the highest number of correct answers within the shortest time.</li>
+             <li>The judges’ decision will be final.</li>
+           </ul>`,
+    teamSize: "2",
+    img: "aio.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>`
+  },
     {
       id: 6,
       title: "Chess",
