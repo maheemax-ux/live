@@ -157,15 +157,53 @@
       img: "ctc.png",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`
     },
-    {
-      id: 8,
-      title: "Link-It",
-      category: "nontechnical",
-      description: "will be updated.",
-      teamSize: "1-2",
-      img: "li.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/></svg>`
-    }
+  { 
+    id: 8,
+    title: "Link-It",
+    category: "nontechnical",
+    description: `<p><strong>Event Description:</strong> Link It is an exciting and interactive visual puzzle game that tests participants' observation skills, logical thinking, and creativity. In this event, participants will be shown two or more images on a single slide. The challenge is to identify the one common word that connects all the given images. This is a non-technical, fun-filled activity designed to encourage quick thinking and sharp visual interpretation skills. Participants must carefully analyze the images and respond within the given time limit.</p>
+    
+           <p><strong>Event Format:</strong></p>
+           <ul>
+             <li>The competition consists of two rounds.</li>
+             <li><strong>Round 1: Rapid Connect</strong>
+               <ul>
+                 <li>A series of image-based questions will be displayed.</li>
+                 <li>Participants must raise their hands to answer.</li>
+                 <li>The first participant will be given a chance to respond.</li>
+                 <li>Each correct answer earns points.</li>
+                 <li>Based on the scores, selected participants will advance to Round 2.</li>
+               </ul>
+             </li>
+             <li><strong>Round 2: Challenge Connect</strong>
+               <ul>
+                 <li>Each shortlisted participant will be asked questions individually.</li>
+                 <li>If a participant gives the correct answer, points will be awarded.</li>
+                 <li>If they do not know the answer, they may pass.</li>
+                 <li>If they attempt and give a wrong answer, -1 mark will be deducted.</li>
+                 <li>Other participants may challenge the question:
+                   <ul>
+                     <li>If the challenger answers correctly, they earn points.</li>
+                     <li>If the challenger answers incorrectly, -2 marks will be deducted.</li>
+                   </ul>
+                 </li>
+               </ul>
+             </li>
+           </ul>
+           
+           <p><strong>Rules & Evaluation:</strong></p>
+           <ul>
+             <li>The event must be played individually.</li>
+             <li>Participants must identify the correct linking word between the images.</li>
+             <li>Negative marking will be applied for incorrect answers.</li>
+             <li>No electronic devices or external assistance are allowed.</li>
+             <li>Winners will be decided based on the highest total score.</li>
+             <li>The judges' decision will be final.</li>
+           </ul>`,
+    teamSize: "1",
+    img: "li.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`
+  }
   ];
 
   // ========================================
