@@ -23,30 +23,32 @@
   };
 
   // ========================================
-  // Event Data
+  // Event Data (FIXED & STANDARDIZED)
   // ========================================
   const EVENTS_DATA = [
     {
       id: 1,
       title: "Prompt Engineering",
       category: "technical",
-      description: "-null-",
+      description: "Master the art of communicating with AI. Craft prompts that unlock the full potential of language models.",
       teamSize: "1",
+      img: "https://picsum.photos/600/400?random=1",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`
     },
     {
       id: 2,
       title: "Reverse Coding",
       category: "technical",
-      description: "-null-",
+      description: "Decode, analyze, and understand software systems. Test your debugging and analytical skills.",
       teamSize: "1-2",
+      img: "https://picsum.photos/600/400?random=2",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`
     },
-{
-  id: 3,
-  title: "Paper Presentation",
-  cat: "technical",
-  desc: `<p><strong>Event Description:</strong> Paper Presentation is a technical event that provides students with a platform to showcase their innovative ideas, research insights, and technical expertise in emerging domains.</p>
+    {
+      id: 3,
+      title: "Paper Presentation",
+      category: "technical", // FIXED: was 'cat'
+      description: `<p><strong>Event Description:</strong> Paper Presentation is a technical event that provides students with a platform to showcase their innovative ideas, research insights, and technical expertise in emerging domains.</p>
          
          <p><strong>Abstract Submission Guidelines:</strong></p>
          <ul>
@@ -94,49 +96,54 @@
          </ul>
          
          <p><strong>Certification:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
-  img: "https://picsum.photos/600/400?random=3",
-  teamSize: "2",
-  icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
-},
+      teamSize: "2",
+      img: "https://picsum.photos/600/400?random=3",
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
+    },
     {
       id: 4,
       title: "AI Quiz",
       category: "technical",
-      description: "-null-",
+      description: "Test your knowledge across AI, technology, and current tech trends.",
       teamSize: "1-2",
+      img: "https://picsum.photos/600/400?random=4",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
     },
     {
       id: 5,
       title: "Act It Out",
       category: "nontechnical",
-      description: "-null-",
+      description: "Showcase your dramatic skills in this exciting mimicry and acting competition.",
       teamSize: "2",
+      img: "https://picsum.photos/600/400?random=5",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>`
     },
     {
       id: 6,
       title: "Chess",
       category: "nontechnical",
-      description: "-null-",
+      description: "Strategic minds battle it out on the 64 squares. Checkmate your way to victory.",
       teamSize: "1",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 16l-1.447.724a1 1 0 0 0-.553.894V20h12v-2.382a1 1 0 0 0-.553-.894L16 16"/><path d="M8.5 14h7"/><path d="M9 10h6"/><path d="M12 4v2"/><path d="M10 6h4"/></svg>`
+      img: "https://picsum.photos/600/400?random=6",
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 16l-1.447.724a1 1 0 0 0-.553.894V20h12v-2.382"/><path d="M8.5 14h7"/><path d="M9 10h6"/><path d="M12 4v2"/></svg>`
     },
     {
       id: 7,
       title: "Chase The Clues",
       category: "nontechnical",
-      description: "-null-",
+      description: "Solve riddles and follow the trail. A thrilling treasure hunt experience.",
       teamSize: "1-2",
+      img: "https://picsum.photos/600/400?random=7",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`
     },
     {
       id: 8,
       title: "Link-It",
       category: "nontechnical",
-      description: "-null-",
+      description: "Connect the dots and find patterns in this mind-bending puzzle challenge.",
       teamSize: "1-2",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`
+      img: "https://picsum.photos/600/400?random=8",
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/></svg>`
     }
   ];
 
@@ -220,26 +227,35 @@
       ? EVENTS_DATA 
       : EVENTS_DATA.filter(e => e.category === filter);
 
+    // UPDATED: HTML structure matches the CSS with Image Box
     elements.eventsGrid.innerHTML = filtered.map((event, index) => `
       <article class="event-card animate-reveal delay-${(index % 4) + 1}" data-category="${event.category}">
-        <div class="event-icon" aria-hidden="true">${event.icon}</div>
-        <h3 class="event-title">${event.title}</h3>
-        <p class="event-desc">${event.description}</p>
-        <div class="event-meta">
-          <span class="event-meta-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-              <circle cx="9" cy="7" r="4"/>
-            </svg>
-            ${event.teamSize} Member${event.teamSize !== '1' ? 's' : ''}
-          </span>
-          <span class="event-meta-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-            </svg>
-            ${event.category === 'technical' ? 'Technical' : 'Non-Technical'}
-          </span>
+        
+        <div class="event-img-box">
+           <img src="${event.img}" alt="${event.title}">
         </div>
+        
+        <div class="event-content">
+            <h3 class="event-title">${event.title}</h3>
+            <div class="event-desc">${event.description}</div>
+            
+            <div class="event-meta">
+              <span class="event-meta-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                </svg>
+                ${event.teamSize} Member${event.teamSize !== '1' ? 's' : ''}
+              </span>
+              <span class="event-meta-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+                ${event.category === 'technical' ? 'Technical' : 'Non-Technical'}
+              </span>
+            </div>
+        </div>
+        
       </article>
     `).join('');
 
