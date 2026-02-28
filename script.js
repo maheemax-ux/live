@@ -42,14 +42,62 @@
       teamSize: "1-2",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`
     },
-    {
-      id: 3,
-      title: "Paper Presentation",
-      category: "technical",
-      description: "-null-",
-      teamSize: "2",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
-    },
+{
+  id: 3,
+  title: "Paper Presentation",
+  cat: "technical",
+  desc: `<p><strong>Event Description:</strong> Paper Presentation is a technical event that provides students with a platform to showcase their innovative ideas, research insights, and technical expertise in emerging domains.</p>
+         
+         <p><strong>Abstract Submission Guidelines:</strong></p>
+         <ul>
+           <li>Teams must submit an abstract before the specified deadline.</li>
+           <li>The abstract should clearly include the title, objective, methodology, and expected outcome of the proposed work.</li>
+           <li>Only abstracts that satisfy the selection criteria will be shortlisted.</li>
+           <li>Shortlisted teams will be invited to present before a panel of judges on the event day.</li>
+         </ul>
+         
+         <p><strong>Presentation Guidelines:</strong></p>
+         <ul>
+           <li>Each team will be allotted 10 minutes for presentation.</li>
+           <li>An additional 2–3 minutes will be provided for the Q&A session.</li>
+           <li>The presentation must contain 15–20 slides.</li>
+           <li>Participants must bring a soft copy of the PPT on the day of the event (via pen drive or email).</li>
+           <li>Slides should be clear, well-structured, and professionally formatted.</li>
+         </ul>
+         
+         <p><strong>Rules & Evaluation Criteria:</strong></p>
+         <ul>
+           <li>Each team may consist of one or two members.</li>
+           <li>The presented work must be original. Plagiarism will result in immediate disqualification.</li>
+           <li>The time limit must be strictly adhered to.</li>
+           <li>Evaluation will be based on:
+             <ul>
+               <li>Technical content</li>
+               <li>Innovation and originality</li>
+               <li>Clarity of explanation</li>
+               <li>Presentation skills</li>
+               <li>Ability to respond to judges’ questions</li>
+             </ul>
+           </li>
+           <li>The decision of the judges will be final.</li>
+         </ul>
+         
+         <p><strong>Suggested Domains:</strong></p>
+         <ul>
+           <li>Artificial Intelligence</li>
+           <li>Data Science</li>
+           <li>Machine Learning</li>
+           <li>Cyber Security</li>
+           <li>Internet of Things (IoT)</li>
+           <li>Cloud Computing</li>
+           <li>Emerging Technologies</li>
+         </ul>
+         
+         <p><strong>Certification:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
+  img: "https://picsum.photos/600/400?random=3",
+  teamSize: "2",
+  icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
+},
     {
       id: 4,
       title: "AI Quiz",
