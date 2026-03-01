@@ -136,15 +136,67 @@
       img: "pp.png",
       icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
     },
-    {
-      id: 4,
-      title: "AI Quiz",
-      category: "technical",
-      description: "will be updated.",
-      teamSize: "2",
-      img: "aq.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
-    },
+  { 
+    id: 4,
+    title: "AI Quiz",
+    category: "technical",
+    description: `<p><strong>Event Description:</strong> The AI Quiz Competition is an intellectually engaging team event designed to test participants' knowledge in Artificial Intelligence, Machine Learning, Data Science, and real-world AI applications. The competition promotes analytical thinking, teamwork, strategic decision-making, and quick responses under pressure. With a structured two-round format, teams must demonstrate both conceptual clarity and speed to secure victory.</p>
+    
+           <p><strong>Two Competitive Rounds:</strong></p>
+           
+           <p><strong>🟢 Round 1: Knowledge Arena (Turn-Wise Round)</strong></p>
+           <ul>
+             <li>This round evaluates core conceptual understanding and strategic answering.</li>
+             <li><strong>Format:</strong>
+               <ul>
+                 <li>Questions will be directed to each team sequentially.</li>
+                 <li>Each team will have 15–20 seconds to respond.</li>
+                 <li>If a team is unable to answer, the question will be opened to other teams for a challenge attempt.</li>
+               </ul>
+             </li>
+             <li><strong>Scoring:</strong>
+               <ul>
+                 <li>Correct answer → +10 marks</li>
+                 <li>Correct challenge → +5 marks</li>
+                 <li>Incorrect challenge → −5 marks</li>
+               </ul>
+             </li>
+             <li>This round tests subject knowledge, confidence, and strategic thinking.</li>
+           </ul>
+
+           <p><strong>🔴 Round 2: Buzzer Blast</strong></p>
+           <ul>
+             <li><strong>Format:</strong>
+               <ul>
+                 <li>Questions will be open to all shortlisted teams.</li>
+                 <li>Teams must press the buzzer.</li>
+                 <li>The first team recognized by the Quiz Master will be given the opportunity to answer.</li>
+                 <li>Only one attempt per question.</li>
+               </ul>
+             </li>
+             <li><strong>Scoring:</strong>
+               <ul>
+                 <li>Correct answer → +10 marks</li>
+                 <li>Incorrect answer → −5 marks</li>
+               </ul>
+             </li>
+             <li>This round emphasizes quick thinking and rapid decision-making under pressure.</li>
+           </ul>
+
+           <p><strong>Winning Criteria:</strong></p>
+           <ul>
+             <li>Scores from both rounds will be combined.</li>
+             <li>The team with the highest cumulative score will be declared the winner.</li>
+             <li>In case of a tie, a tie-breaker question will be conducted.</li>
+             <li>The decision of the organizing committee will be final.</li>
+           </ul>
+
+           <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
+    
+    teamSize: "1-2",
+    img: "aq.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
+  },
   { 
     id: 5,
     title: "Act It Out",
@@ -199,15 +251,78 @@
     img: "c.png",
     icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 16l-1.447.724a1 1 0 0 0-.553.894V20h12v-2.382"/><path d="M8.5 14h7"/><path d="M9 10h6"/><path d="M12 4v2"/></svg>`
   },
-    {
-      id: 7,
-      title: "Chase The Clues",
-      category: "nontechnical",
-      description: "will be updated.",
-      teamSize: "2",
-      img: "ctc.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`
-    },
+      { 
+    id: 7,
+    title: "Chase The Clues",
+    category: "nontechnical",
+    description: `<p><strong>Event Description:</strong> Chase the Clues is an exciting and interactive team-based event designed to test creativity, communication skills, quick thinking, and teamwork. This competition challenges participants to decode clues through visual interpretation and smart verbal hints under time pressure. With two dynamic rounds that focus on different skill sets, teams must collaborate effectively to outscore their opponents.</p>
+    
+           <p><strong>Team Format:</strong></p>
+           <ul>
+             <li>Team Event – 2 Members per Team</li>
+             <li>One member draws or gives clues</li>
+             <li>The other member guesses</li>
+             <li>Roles may be switched between rounds</li>
+           </ul>
+
+           <p><strong>🟢 Round 1: Sketch Sprint</strong></p>
+           <ul>
+             <li>In this round, one team member will draw the given word while the other member guesses it.</li>
+             <li><strong>Rules:</strong>
+               <ul>
+                 <li>Time limit: 60 seconds per word</li>
+                 <li>No speaking, writing letters, numbers, or symbols</li>
+                 <li>Only drawings are allowed</li>
+                 <li>The guessing member must identify the exact word</li>
+                 <li>Teams may attempt multiple words within the time limit</li>
+               </ul>
+             </li>
+             <li><strong>Scoring:</strong>
+               <ul>
+                 <li>Each correct guess → 10 marks</li>
+                 <li>No negative marking</li>
+                 <li>Number of correct guesses within time determines score</li>
+               </ul>
+             </li>
+             <li>This round tests creativity, speed, and visual communication skills.</li>
+           </ul>
+
+           <p><strong>🔴 Round 2: Clue Cascade</strong></p>
+           <ul>
+             <li>In this verbal challenge round, one team member will view the word displayed on the screen and provide one-word clues to their teammate.</li>
+             <li><strong>Rules:</strong>
+               <ul>
+                 <li>Time limit: 60 seconds per team</li>
+                 <li>Only one-word clues allowed</li>
+                 <li>No gestures, spelling, rhyming words, or parts of the answer</li>
+                 <li>No direct translation of the word</li>
+                 <li>The guessing partner must identify the correct word</li>
+               </ul>
+             </li>
+             <li><strong>Scoring:</strong>
+               <ul>
+                 <li>Each correct guess → 10 marks</li>
+                 <li>If a rule is violated → Word will be skipped (no points)</li>
+                 <li>No negative marking</li>
+               </ul>
+             </li>
+             <li>This round tests vocabulary, strategic clue-giving, and presence of mind.</li>
+           </ul>
+
+           <p><strong>Winning Criteria:</strong></p>
+           <ul>
+             <li>Scores from both rounds will be combined.</li>
+             <li>The team with the highest cumulative score will be declared the winner.</li>
+             <li>In case of a tie, a tie-breaker round will be conducted.</li>
+             <li>The decision of the organizers will be final.</li>
+           </ul>
+
+           <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
+
+    teamSize: "2",
+    img: "ctc.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`
+  },
   { 
     id: 8,
     title: "Link-It",
