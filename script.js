@@ -49,7 +49,7 @@
                </ul>
              </li>
              <li>The decision of the judges will be final and binding.</li>
-           </ul>,
+           </ul>
            
            <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
         
@@ -71,7 +71,7 @@
              <li>The event will be conducted within a fixed time limit.</li>
              <li>Evaluation will be based on accuracy, logical reasoning, and completion time.</li>
              <li>The decision of the judges will be final.</li>
-           </ul>,
+           </ul>
 
            <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
         
@@ -160,7 +160,7 @@
              <li>Teams will be awarded points for each correct answer.</li>
              <li>Winners will be determined based on the highest number of correct answers within the shortest time.</li>
              <li>The judges’ decision will be final.</li>
-           </ul>,
+           </ul>
 
            <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
     
@@ -191,7 +191,7 @@
              <li>Final rankings will be determined based on the Lichess scoring system.</li>
              <li>Players will be ranked according to their overall performance.</li>
              <li>Top performer will be awarded prizes and certificates.</li>
-           </ul>,
+           </ul>
 
            <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
       
@@ -250,7 +250,7 @@
              <li>No electronic devices or external assistance are allowed.</li>
              <li>Winners will be decided based on the highest total score.</li>
              <li>The judges' decision will be final.</li>
-           </ul>,
+           </ul>
 
            <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
     
