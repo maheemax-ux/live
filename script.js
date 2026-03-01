@@ -88,6 +88,7 @@
          <p><strong>Abstract Submission Guidelines:</strong></p>
          <ul>
            <li>Teams must submit an abstract before the specified deadline.</li>
+           <li>Send abstract to thinkstra2x@gmail.com</li>
            <li>The abstract should clearly include the title, objective, methodology, and expected outcome of the proposed work.</li>
            <li>Only abstracts that satisfy the selection criteria will be shortlisted.</li>
            <li>Shortlisted teams will be invited to present before a panel of judges on the event day.</li>
@@ -142,7 +143,10 @@
     category: "technical",
     description: `<p><strong>Event Description:</strong> The AI Quiz Competition is an intellectually engaging team event designed to test participants' knowledge in Artificial Intelligence, Machine Learning, Data Science, and real-world AI applications. The competition promotes analytical thinking, teamwork, strategic decision-making, and quick responses under pressure. With a structured two-round format, teams must demonstrate both conceptual clarity and speed to secure victory.</p>
     
-           <li>Each team must consist of exactly two members.</li> 
+           <p><strong>Rules & Structure:</strong></p>
+           <ul>
+             <li>Each team must consist of exactly two members.</li> 
+           <ul>  
            
            <p><strong>Two Competitive Rounds:</strong></p>
            
