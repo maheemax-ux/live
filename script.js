@@ -142,6 +142,8 @@
     category: "technical",
     description: `<p><strong>Event Description:</strong> The AI Quiz Competition is an intellectually engaging team event designed to test participants' knowledge in Artificial Intelligence, Machine Learning, Data Science, and real-world AI applications. The competition promotes analytical thinking, teamwork, strategic decision-making, and quick responses under pressure. With a structured two-round format, teams must demonstrate both conceptual clarity and speed to secure victory.</p>
     
+           <li>Each team must consist of exactly two members.</li> 
+           
            <p><strong>Two Competitive Rounds:</strong></p>
            
            <p><strong>🟢 Round 1: Knowledge Arena (Turn-Wise Round)</strong></p>
@@ -193,7 +195,7 @@
 
            <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
     
-    teamSize: "1-2",
+    teamSize: "2",
     img: "aq.png",
     icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
   },
