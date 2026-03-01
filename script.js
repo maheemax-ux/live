@@ -168,15 +168,37 @@
     img: "aio.png",
     icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>`
   },
-    {
-      id: 6,
-      title: "Chess",
-      category: "nontechnical",
-      description: "will be updated.",
-      teamSize: "1",
-      img: "c.png",
-      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 16l-1.447.724a1 1 0 0 0-.553.894V20h12v-2.382"/><path d="M8.5 14h7"/><path d="M9 10h6"/><path d="M12 4v2"/></svg>`
-    },
+      { 
+    id: 6,
+    title: "Chess",
+    category: "nontechnical",
+    description: `<p><strong>Event Description:</strong> The Chess Tournament is a competitive and intellectually engaging event designed for strategic thinkers and chess enthusiasts. This tournament provides participants with an opportunity to showcase their analytical skills, concentration, and tactical expertise in a structured and fair competitive environment. Players will compete in scheduled rounds, demonstrating strategic planning, quick decision-making, and sportsmanship.</p>
+    
+           <p><strong>Rules & Structure:</strong></p>
+           <ul>
+             <li>♟️ The tournament will be conducted on Lichess.org.</li>
+             <li>Open to registered participants only.</li>
+             <li>Participants must have a valid Lichess account to compete.</li>
+             <li>Each participant will be allotted one system for the duration of the tournament.</li>
+             <li>The tournament may follow a Swiss / Arena / Knockout format, as decided by the organizers.</li>
+             <li>The time control (e.g., 5+3, 10+0, 3+2) will be announced by the organizers.</li>
+             <li>Fair play is mandatory; any violation of Lichess fair play policies may result in disqualification.</li>
+             <li>The decision of the organizers will be final and binding.</li>
+           </ul>
+           
+           <p><strong>Winning Criteria:</strong></p>
+           <ul>
+             <li>Final rankings will be determined based on the Lichess scoring system.</li>
+             <li>Players will be ranked according to their overall performance.</li>
+             <li>Top performer will be awarded prizes and certificates.</li>
+           </ul>,
+
+           <p><strong>Certification And Prizes:</strong> Certificates will be provided to all participants. Winners will receive certificates and prizes.</p>`,
+      
+    teamSize: "1",
+    img: "c.png",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 16l-1.447.724a1 1 0 0 0-.553.894V20h12v-2.382"/><path d="M8.5 14h7"/><path d="M9 10h6"/><path d="M12 4v2"/></svg>`
+  },
     {
       id: 7,
       title: "Chase The Clues",
